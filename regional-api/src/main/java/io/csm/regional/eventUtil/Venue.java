@@ -2,14 +2,14 @@ package io.csm.regional.eventUtil;
 
 public class Venue {
     private String name;
-    private double longtitude;
+    private double longitude;
     private double latitude;
 
     @Override
     public String toString() {
         return "Venue{" +
                 "name='" + name + '\'' +
-                ", longtitude=" + longtitude +
+                ", longitude=" + longitude +
                 ", latitude=" + latitude +
                 '}';
     }
@@ -22,12 +22,12 @@ public class Venue {
         this.name = name;
     }
 
-    public double getLongtitude() {
-        return longtitude;
+    public double getLongitude() {
+        return longitude;
     }
 
-    public void setLongtitude(double longtitude) {
-        this.longtitude = longtitude;
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
     public double getLatitude() {
