@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Company {
     private String name;
-    private String chiefExcecutiveOfficer;
+    private String chiefExecutiveOfficer;
     private List<String> contacts;
     private Address address;
 
@@ -12,7 +12,7 @@ public class Company {
     public String toString() {
         return "Company{" +
                 "name='" + name + '\'' +
-                ", chiefExcecutiveOfficer='" + chiefExcecutiveOfficer + '\'' +
+                ", chiefExecutiveOfficer='" + chiefExecutiveOfficer + '\'' +
                 ", contacts=" + contacts +
                 ", address=" + address +
                 '}';
@@ -26,12 +26,12 @@ public class Company {
         this.name = name;
     }
 
-    public String getChiefExcecutiveOfficer() {
-        return chiefExcecutiveOfficer;
+    public String getChiefExecutiveOfficer() {
+        return chiefExecutiveOfficer;
     }
 
-    public void setChiefExcecutiveOfficer(String chiefExcecutiveOfficer) {
-        this.chiefExcecutiveOfficer = chiefExcecutiveOfficer;
+    public void setChiefExecutiveOfficer(String chiefExecutiveOfficer) {
+        this.chiefExecutiveOfficer = chiefExecutiveOfficer;
     }
 
     public List<String> getContacts() {

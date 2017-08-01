@@ -5,7 +5,7 @@ public class Address {
     private String street;
     private String city;
     private String state;
-    private String zipcode;
+    private String postalCode;
     private String county;
 
     @Override
@@ -15,7 +15,7 @@ public class Address {
                 ", street='" + street + '\'' +
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +
-                ", zipcode='" + zipcode + '\'' +
+                ", postalCode='" + postalCode + '\'' +
                 ", county='" + county + '\'' +
                 '}';
     }
@@ -52,12 +52,12 @@ public class Address {
         this.state = state;
     }
 
-    public String getZipcode() {
-        return zipcode;
+    public String getPostalCode() {
+        return postalCode;
     }
 
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 
     public String getCounty() {
